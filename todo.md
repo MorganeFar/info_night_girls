@@ -17,7 +17,7 @@ x changer le titre de la fenetre lorsque l'user est plus dessus
 - enquête de satisfaction qui revient tout le temps (automatique ou avec boutons)
 - cookies a lire super long, 42 fois sur le oui avec un compteur qui décrémente 
 - newsletter (adresse mail incorect)
-- tout qui clignotte 
+x tout qui clignotte 
 x une couleur par caractère 
 x police trop grosse ou tout petite 
 - date de naissance aléatoire -> avec un petit commentaire 'oh wtf t super vieux'
