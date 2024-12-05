@@ -12,7 +12,7 @@ Idées nuit info :
 - des dégradés partout (avec des couleurs horribles bien sure)
 - des blagues de geek partout (goloum)
 - au moins 1 rick roll 
-- changer le titre de la fenetre lorsque l'user est plus dessus 
+x changer le titre de la fenetre lorsque l'user est plus dessus 
 - des boutons invisible qui affiches des images (d'océan) ou des pop up avec des blagues 
 - enquête de satisfaction qui revient tout le temps (automatique ou avec boutons)
 - cookies a lire super long, 42 fois sur le oui avec un compteur qui décrémente 
