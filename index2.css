@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 title{
     color : red;
 }
@@ -71,16 +75,26 @@ title{
     color: rgb(200, 0, 255);
 }
 
-
 .image-clignote  {
     animation-duration: .8s;
     animation-name: clignoter;
     animation-iteration-count: infinite;
     transition: none;
- }
+}
  
- @keyframes clignoter {
+@keyframes clignoter {
    0%   { opacity:1; }
    40%   {opacity:0; }
    100% { opacity:1; }
- }
+}
+
+
+#firstname{
+    margin: 10px;
+    width: 90%;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
