@@ -35,6 +35,13 @@ title{
 .fushia {
     color: rgb(255, 0, 255);
 }
+.fushia_bg {
+    background-color: rgb(255, 0, 255);
+}
+
+.cyan_bg {
+    background-color: cyan;
+}
 
 .jaune {
     color: rgb(255, 243, 0);
