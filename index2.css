@@ -12,6 +12,14 @@ title{
       "EHLT" 12;
 }
 
+.big_font {
+    font-size: 20em;
+}
+
+.smol_font {
+    font-size: 2px;
+}
+
 .cyan {
     color: rgb(43,255,255);
 }
