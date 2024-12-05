@@ -10,4 +10,48 @@ title{
     font-variation-settings:
       "EDPT" 100,
       "EHLT" 12;
-  }
+}
+
+.cyan {
+    color: rgb(43,255,255);
+}
+
+.vertPomme {
+    color: rgb(106, 248, 106);
+}
+
+.voiletEISPRISTIC {
+    color: rgb(125, 46, 135);
+}
+
+.fushia {
+    color: rgb(255, 0, 255);
+}
+
+.jaune {
+    color: rgb(255, 243, 0);
+}
+
+.rouge {
+    color: rgb(255, 0, 0);
+}
+
+.bleu {
+    color: rgb(0, 0, 255);
+}
+
+.vert {
+    color: rgb(0, 255, 0);
+}
+
+.orange {
+    color:rgb(255, 128, 0)
+}
+
+.rosePetasse {
+    color:rgb(253, 24, 150)
+}
+
+.violet {
+    color: rgb(200, 0, 255);
+}
