@@ -1,7 +1,4 @@
 let body = document.getElementsByTagName("body")
-let input = document.getElementsByTagName("form")
-
-console.log(input)
 
 // Title action
 let title = document.title
@@ -11,3 +8,12 @@ window.addEventListener("focus", (event)=>document.title = "Sauvons l'océan")
 // Input action
 let firstname = document.getElementById('firstname')
 firstname.addEventListener("input", ()=>firstname.value = firstname.value.split("").reverse().join(""))
+
+let lastname = document.getElementById('lastname')
+lastname.addEventListener("input", ()=>{
+    let tab_temp = []
+    lastname.value.split("").forEach(letter => {
+        tab_temp.push(String.fromCharCode((letter.charCodeAt()+1)%127))
+    });
+    lastname.value = tab_temp.join("") 
+})

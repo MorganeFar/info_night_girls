@@ -5,7 +5,7 @@ Idées nuit info :
 - le non qui se barre quand essaye de cliquer dessus 
 - barre de son degeulasse 
 - palette de couleur atroce : violet eispri stic, fushia, bleu, vert pomme, rouge, jaune fluo 
-- zone de texte qui écrit à l'envers : add event listener qui réécrit dans l'input dans l'autre sesn 
+x zone de texte qui écrit à l'envers : add event listener qui réécrit dans l'input dans l'autre sesn 
 - jeu avec les bubules (cookies)
 - des hover partout 
 - une bulle qui suit la sourie 
