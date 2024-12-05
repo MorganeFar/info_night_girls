@@ -4,8 +4,8 @@ Idées nuit info :
 - eteint la lumière du site et en mode lampe torche 
 - le non qui se barre quand essaye de cliquer dessus 
 - barre de son degeulasse 
-- palette de couleur atroce : violet eispri stic, fushia, bleu, vert pomme, rouge, jaune fluo 
-- zone de texte qui écrit à l'envers : add event listener qui réécrit dans l'input dans l'autre sesn 
+x palette de couleur atroce : violet eispri stic, fushia, bleu, vert pomme, rouge, jaune fluo 
+x zone de texte qui écrit à l'envers : add event listener qui réécrit dans l'input dans l'autre sesn 
 - jeu avec les bubules (cookies)
 - des hover partout 
 - une bulle qui suit la sourie 
@@ -18,7 +18,7 @@ x changer le titre de la fenetre lorsque l'user est plus dessus
 - cookies a lire super long, 42 fois sur le oui avec un compteur qui décrémente 
 - newsletter (adresse mail incorect)
 - tout qui clignotte 
-- une couleur par caractère 
-- police trop grosse ou tout petite 
+x une couleur par caractère 
+x police trop grosse ou tout petite 
 - date de naissance aléatoire -> avec un petit commentaire 'oh wtf t super vieux'
 - formulaire null et avec des random 
