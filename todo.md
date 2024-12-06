@@ -6,8 +6,7 @@ x pop up partout qui appelle d'autre pop up
 - barre de son degeulasse 
 x palette de couleur atroce : violet eispri stic, fushia, bleu, vert pomme, rouge, jaune fluo 
 x zone de texte qui écrit à l'envers : add event listener qui réécrit dans l'input dans l'autre sesn 
-x jeu avec les bubules (cookies)
-- des hover partout 
+x jeu avec les bubules (cookies)x- des hover partout 
 - une bulle qui suit la sourie 
 - des dégradés partout (avec des couleurs horribles bien sure)
 - des blagues de geek partout (goloum)
