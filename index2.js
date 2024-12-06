@@ -95,3 +95,31 @@ function enquete_satif(){
         alert("Vous etes vraiment pas sympa ! On vous redemandera dans pas longtemps au cas où vous changer d'avis.")
     }
 }
+
+
+function limitInput(inputElement) {
+    const currentLength = inputElement.value.length;
+    const excess = currentLength - 20;
+
+
+    if (excess > 0) {
+        const excessText = inputElement.value.slice(20);
+
+        // Affichage des lettres tombantes
+        const fallingContainer = document.querySelector('.falling-letters');
+        for (let i = 0; i < excess; i++) {
+            const letter = document.createElement('span');
+            letter.textContent = excessText[i];
+            letter.style.left = `${Math.random() * 100}%`; // Placer les lettres de façon aléatoire
+            fallingContainer.appendChild(letter);
+
+            // Retirer les lettres après l'animation
+            setTimeout(() => {
+                fallingContainer.removeChild(letter);
+            }, 1000); // La durée de l'animation (en ms)
+        }
+
+        // On tronque la valeur de l'input pour ne pas dépasser la longueur maximale
+        inputElement.value = inputElement.value.slice(0, 20 );
+    }
+}
