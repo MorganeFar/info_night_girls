@@ -1,5 +1,5 @@
 Idées nuit info : 
-- néon
+x néon
 - pop up partout qui appelle d'autre pop up
 - eteint la lumière du site et en mode lampe torche 
 - le non qui se barre quand essaye de cliquer dessus 
