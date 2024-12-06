@@ -53,14 +53,17 @@ title{
 
 .rouge {
     color: rgb(255, 0, 0);
+    text-shadow: 0 0 60px rgba(255, 0, 0);
 }
 
 .bleu {
     color: rgb(0, 0, 255);
+    text-shadow: 0 0 60px rgba(0, 0, 255);
 }
 
 .vert {
     color: rgb(0, 255, 0);
+    text-shadow: 0 0 60px rgba(0, 255, 0);
 }
 
 .orange {
@@ -87,7 +90,6 @@ title{
    40%   {opacity:0; }
    100% { opacity:1; }
 }
-
 
 #firstname{
     margin: 10px;
