@@ -18,15 +18,16 @@
         <small>@Crédits : SomeoneUKnow + El_cassito + La Présidente + Lilisan + Laulau</small>
     </footer>
 
-   <form id="form">
+
+   <div id="horrible_div">
     <p class="big_font"><t class="bleu image-clignote">P</t><t class="jaune">o</t><t class="fushia">u</t><t class="vert">r</t> <t class="voiletEISPRISTIC">v</t><t class="rosePetasse">o</t><t class="orange">u</t><t class="vertPomme">s</t> <t class="rouge">i</t><t class="bleu">n</t><t class="jaune">s</t><t class="fushia">c</t><t class="vert">r</t><t class="voiletEISPRISTIC">i</t><t class="rosePetasse">r</t><t class="orange">e</t> <t class="vertPomme image-clignote">a</t> <t class="rouge">n</t><t class="bleu">o</t><t class="jaune">t</t><t class="fushia">r</t><t class="vert">e</t> <t class="voiletEISPRISTIC">n</t><t class="rosePetasse image-clignote">e</t><t class="orange">w</t><t class="vertPomme">s</t><t class="rouge">l</t><t class="bleu">e</t><t class="jaune">t</t><t class="fushia">t</t><t class="vert image-clignote">e</t><t class="voiletEISPRISTIC">r</t> <t class="rosePetasse">:</t></p>
-        <p><t class="bleu">P</t><t class="jaune image-clignote">r</t><t class="fushia">e</t><t class="vert">n</t><t class="voiletEISPRISTIC image-clignote">o</t><t class="rosePetasse">m</t></p>
-        <input type="text" id="firstname"><br>
-        <label for="lastname"><t class="bleu">N</t><t class="jaune image-clignote">o</t><t class="fushia">m</t> <t class="vert">d</t><t class="voiletEISPRISTIC image-clignote">e</t> <t class="rosePetasse">f</t><t class="orange">a</t><t class="vertPomme">m</t><t class="rouge image-clignote">i</t><t class="bleu">l</t><t class="jaune">l</t><t class="fushia">e</t></label><br>
-        <input type="text" id="lastname" name="lastname"><br><br>
-        <label for="mail"><t class="bleu image-clignote">M</t><t class="jaune">a</t><t class="rouge">i</t><t class="vert image-clignote">l</t></label><br>
-        <input type="text" id="mail" name="mail">
-    </form><br>
+        <label for="firstname" class="horrible_input"><t class="bleu">P</t><t class="jaune image-clignote">r</t><t class="fushia">e</t><t class="vert">n</t><t class="voiletEISPRISTIC image-clignote">o</t><t class="rosePetasse">m</t></label>
+        <input type="text" id="firstname" class="horrible_input"><br>
+        <label for="lastname" class="horrible_input"><t class="bleu">N</t><t class="jaune image-clignote">o</t><t class="fushia">m</t> <t class="vert">d</t><t class="voiletEISPRISTIC image-clignote">e</t> <t class="rosePetasse">f</t><t class="orange">a</t><t class="vertPomme">m</t><t class="rouge image-clignote">i</t><t class="bleu">l</t><t class="jaune">l</t><t class="fushia">e</t></label><br>
+        <input class="horrible_input" type="text" id="lastname" name="lastname"><br><br>
+        <label for="mail" class="horrible_input"><t class="bleu image-clignote horrible_input">M</t><t class="jaune">a</t><t class="rouge">i</t><t class="vert image-clignote">l</t></label><br>
+        <input class="horrible_input" type="text" id="mail" name="mail">
+   </div><br>
     <button onclick="validate()" class="rouge">Valider</button>
     <p id="validate_button" class="rouge image-clignote big_font"></p>
 
@@ -38,5 +39,11 @@
 
     <img class="image-clignote" src="https://www.cdiscount.com/pdt2/7/4/5/1/700x700/auc2008959377745/rw/ocean-dauphins-40x50cm-affiche-poster-envo.jpg" alt="alt">
     
+    <header>
+        <p>Home</p>
+        <div class="score">
+            0
+        </div>
+    </header>
 </body>
 </html>

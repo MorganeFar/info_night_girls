@@ -6,6 +6,10 @@ title{
     color : red;
 }
 
+body{
+    min-height: 100vh;
+}
+
 .nabla-lorem {
     font-family: "Nabla", system-ui;
     font-optical-sizing: auto;
@@ -91,12 +95,51 @@ title{
    100% { opacity:1; }
 }
 
-#firstname{
-    margin: 10px;
-    width: 90%;
+#horrible_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.horrible_input{
+    text-align: center;
+    margin: auto;
 }
 
 footer{
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 5px;
 }
+
+footer small, header p{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-top: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bubble{
+    border: solid 2px rgba(0, 150, 255, 0.7);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:rgba(109, 152, 218, 0.7);
+    transition: all 0.5s ease;
+}
+
+.bigBubble{
+    transform:scale(1.2);
+}
+
