@@ -1,13 +1,12 @@
 Idées nuit info : 
 x néon
-- pop up partout qui appelle d'autre pop up
+x pop up partout qui appelle d'autre pop up
 - eteint la lumière du site et en mode lampe torche 
 - le non qui se barre quand essaye de cliquer dessus 
 - barre de son degeulasse 
 x palette de couleur atroce : violet eispri stic, fushia, bleu, vert pomme, rouge, jaune fluo 
 x zone de texte qui écrit à l'envers : add event listener qui réécrit dans l'input dans l'autre sesn 
-- jeu avec les bubules (cookies)
-- des hover partout 
+x jeu avec les bubules (cookies)x- des hover partout 
 - une bulle qui suit la sourie 
 - des dégradés partout (avec des couleurs horribles bien sure)
 - des blagues de geek partout (goloum)
