@@ -101,6 +101,10 @@ body{
     flex-direction: column;
 }
 
+#horrible_div>*{
+    text-align: center;
+}
+
 .horrible_input{
     text-align: center;
     margin: auto;
