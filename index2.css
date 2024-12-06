@@ -43,12 +43,17 @@ body{
 .fushia {
     color: rgb(255, 0, 255);
 }
+
 .fushia_bg {
     background-color: rgb(255, 0, 255);
 }
 
 .cyan_bg {
     background-color: cyan;
+}
+
+.cyan_bg:hover {
+    background-color: rgb(255, 0, 0);
 }
 
 .jaune {

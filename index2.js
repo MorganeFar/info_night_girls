@@ -76,10 +76,11 @@ setInterval(()=>{
     })
 }
 , 1000)
+
 function validate(){
-    // for (int i = 0; i < 8; i++){
-    //     alert("Vous avez valider ! \n L'océan vous remerci !")
-    // }
+    for (i = 0; i < 8; i++){
+        alert("Vous avez valider ! \n L'océan vous remerci !")
+    }
     const elem = document.getElementById('validate_button')
     elem.innerHTML = "Mail non conforme. Veuillez réessayer."
 }
