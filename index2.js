@@ -34,6 +34,7 @@ lastname.addEventListener("input", ()=>{
     let tab_temp = []
     lastname.value.split("").forEach(letter => {
         alert("vous avez entré un caractère ! \n L'océan vous remerci !")
+        enquete_satif()
         tab_temp.push(String.fromCharCode((letter.charCodeAt()+1)%127))
     });
     lastname.value = tab_temp.join("") 
@@ -81,6 +82,16 @@ function validate(){
     for (i = 0; i < 8; i++){
         alert("Vous avez valider ! \n L'océan vous remerci !")
     }
+    enquete_satif()
     const elem = document.getElementById('validate_button')
     elem.innerHTML = "Mail non conforme. Veuillez réessayer."
+}
+
+function enquete_satif(){
+    let dial = confirm("Vous voulez participer a une enquête de satifaction ?")
+    if(dial){
+        alert("Wow ça vous intéresse vraiment ? \n On était pas prèt à ça, on reviens vers vous dans pas longtemps.")
+    }else{
+        alert("Vous etes vraiment pas sympa ! On vous redemandera dans pas longtemps au cas où vous changer d'avis.")
+    }
 }
