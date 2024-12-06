@@ -57,14 +57,17 @@ body{
 
 .rouge {
     color: rgb(255, 0, 0);
+    text-shadow: 0 0 60px rgba(255, 0, 0);
 }
 
 .bleu {
     color: rgb(0, 0, 255);
+    text-shadow: 0 0 60px rgba(0, 0, 255);
 }
 
 .vert {
     color: rgb(0, 255, 0);
+    text-shadow: 0 0 60px rgba(0, 255, 0);
 }
 
 .orange {
@@ -79,6 +82,18 @@ body{
     color: rgb(200, 0, 255);
 }
 
+.image-clignote  {
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+ 
+@keyframes clignoter {
+   0%   { opacity:1; }
+   40%   {opacity:0; }
+   100% { opacity:1; }
+}
 
 #horrible_div{
     width: 100%;
@@ -127,3 +142,4 @@ header{
 .bigBubble{
     transform:scale(1.2);
 }
+
