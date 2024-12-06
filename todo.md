@@ -22,3 +22,4 @@ x une couleur par caractère
 x police trop grosse ou tout petite 
 - date de naissance aléatoire -> avec un petit commentaire 'oh wtf t super vieux'
 - formulaire null et avec des random 
+- sortir focus input 

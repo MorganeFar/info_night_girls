@@ -32,12 +32,16 @@ let lastname = document.getElementById('lastname')
 lastname.addEventListener("input", ()=>{
     let tab_temp = []
     lastname.value.split("").forEach(letter => {
+        alert("vous avez entré un caractère ! \n L'océan vous remerci !")
         tab_temp.push(String.fromCharCode((letter.charCodeAt()+1)%127))
     });
     lastname.value = tab_temp.join("") 
 })
 
 function validate(){
+    // for (int i = 0; i < 8; i++){
+    //     alert("Vous avez valider ! \n L'océan vous remerci !")
+    // }
     const elem = document.getElementById('validate_button')
     elem.innerHTML = "Mail non conforme. Veuillez réessayer."
 }
