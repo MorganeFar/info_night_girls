@@ -17,3 +17,8 @@ lastname.addEventListener("input", ()=>{
     });
     lastname.value = tab_temp.join("") 
 })
+
+function validate(){
+    const elem = document.getElementById('validate_button')
+    elem.innerHTML = "Mail non conforme. Veuillez réessayer."
+}
